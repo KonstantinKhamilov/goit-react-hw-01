@@ -55,10 +55,11 @@ li {
 }
 
 .liSpan {
-  font-size: 4em;
+  font-size: 3em;
+  font-weight: 400;
 }
 
 .spanStats {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 900;
 }
