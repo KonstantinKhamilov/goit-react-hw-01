@@ -31,18 +31,17 @@
   color: grey;
 }
 
-ul {
+.ulProfile {
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   margin: 0px -5px 0px 0px;
   padding: 0;
   height: 250px;
   background-color: rgb(219, 216, 216);
 }
 
-li {
+.liProfile {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,7 +50,6 @@ li {
   border: solid;
   border-color: grey;
   border-width: 7px 7px 0px 0px;
-  float: left;
 }
 
 .liSpan {

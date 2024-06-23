@@ -1,0 +1,46 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.avatar {
+  display: block;
+  margin: auto auto;
+  width: 120px;
+  height: 150px;
+}
+
+.name {
+  margin: auto auto;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.ulFriend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.liFriend {
+  list-style: none;
+  border: solid;
+  border-radius: 15px;
+  border-width: 4px;
+  width: 200px;
+  height: 250px;
+}
+
+.status {
+  margin: auto auto;
+  font-size: 1.5em;
+}
+
+.status.online {
+  color: green;
+}
+
+.status.offline {
+  color: red;
+}
