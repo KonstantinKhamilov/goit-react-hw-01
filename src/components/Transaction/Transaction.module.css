@@ -1,0 +1,24 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #000; /* черный фон для заголовка */
+  color: #fff; /* белый текст для заголовка */
+  padding: 10px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f0f0; /* светло-серый фон для четных строк */
+}
+
+tr:nth-child(odd) {
+  background-color: #fff; /* белый фон для нечетных строк */
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
